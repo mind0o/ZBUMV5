@@ -1,3 +1,4 @@
+const WebSocket = require('ws')
 var express = require('express');
 const cors = require('cors');
 const app = express();
