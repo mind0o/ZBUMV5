@@ -6,3 +6,13 @@ const app = express();
 const { json, raw } = require('express');
 const url = require('url');
 const { stringify } = require('querystring');
+app.use(cors())
+app.use(express.json());
+
+
+var takenGameIDs = [];
+var gameInfosJSON = [];
+var passwords = [];
+var passwordLength = 20;
+var languagePacks = [];
+var javascriptTexts = [];
