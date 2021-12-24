@@ -1,0 +1,15 @@
+{
+  "name": "ZBUMV5",
+  "version": "1.0.0",
+  "description": "none",
+  
+  
+  
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "multer":"^1.4.2",
+    "ws":"^8.3.0"
+  }
+}
