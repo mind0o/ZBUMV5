@@ -17,6 +17,10 @@ var passwordLength = 20;
 var languagePacks = [];
 var javascriptTexts = [];
 
+app.get('/ZBUMCommunicate', function (req, res) {
+  res.send('hello ass\nnono\nyes\n'); //replace with your data here
+});
+
 app.listen(3000);
 
 function makeRandomString(length) {
